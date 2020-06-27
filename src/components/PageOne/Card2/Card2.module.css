@@ -1,0 +1,140 @@
+.Card2{
+    width:100vw; 
+    margin-top: 30px;   
+}
+
+.heading{
+    text-align: center;
+    font-size:2.6vw;
+    letter-spacing: 0.35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: #1D3557;
+    opacity: 1;
+    margin-bottom: 30px;
+}
+
+
+.mainimage{
+    width: 34vw;
+    margin-left: 33vw;
+    margin-right: 33vw;
+    background: transparent  0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 20px #8282822E;
+    border-radius: 10px;
+    opacity: 0.73;
+}
+
+.imageContainer{
+    width:70vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-top: 50px;
+}
+
+.image3{
+    width:15vw;
+    margin-left: 1.25vw;
+    margin-right: 1.25vw;
+}
+
+.image4{
+    width:15vw;
+    margin-left: 1.25vw;
+    margin-right: 1.25vw;
+}
+
+.image5{
+    width:15vw;
+    margin-left: 1.25vw;
+    margin-right: 1.25vw;
+}
+
+.image6{
+    width:15vw;
+    margin-left: 1.25vw;
+    margin-right: 1.25vw;
+}
+
+@media screen and (max-width:900px) and (min-width:600px){
+    .heading{
+        font-size: 4vw;;
+    }
+    .mainimage{
+        width: 50vw;
+        margin-left: 25vw;
+        margin-right: 25vw;
+    }
+    .imageContainer{
+        width:100vw;
+        margin-top: 40px;
+        margin-left: 0vw;
+        margin-right: 0vw;
+    }
+    
+    .image3{
+        width:30vw;
+        margin-left: 15vw;
+        margin-right: 5vw;
+    }
+    
+    .image4{
+        width:30vw;
+        margin-left: 5vw;
+        margin-right: 15vw;
+    }
+    
+    .image5{
+        width:30vw;
+        margin-left: 15vw;
+        margin-right: 5vw;
+    }
+    
+    .image6{
+        width:30vw;
+        margin-left: 5vw;
+        margin-right: 15vw;
+    }
+}
+
+@media screen and (max-width:599px){
+    .heading{
+        font-size: 6vw;;
+    }
+    .mainimage{
+        width: 60vw;
+        margin-left: 20vw;
+        margin-right: 20vw;
+    }
+    .imageContainer{
+        width:100vw;
+        margin-top: 30px;
+        margin-left: 0vw;
+        margin-right: 0vw;
+    }
+    
+    .image3{
+        width:40vw;
+        margin-left: 30vw;
+        margin-right: 30vw;
+    }
+    
+    .image4{
+        width:40vw;
+        margin-left: 30vw;
+        margin-right: 30vw;
+    }
+    
+    .image5{
+        width:40vw;
+        margin-left: 30vw;
+        margin-right: 30vw;
+    }
+    
+    .image6{
+        width:40vw;
+        margin-left: 30vw;
+        margin-right: 30vw;
+    }
+}
+
