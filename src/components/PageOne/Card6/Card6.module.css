@@ -1,0 +1,79 @@
+.Card6{
+    width: 100vw;
+    background: #A8DADC 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding-bottom: 5vw;
+
+}
+
+.heading{
+    text-align: center;
+    font-size:2.6vw;
+    letter-spacing: 0.35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: #1D3557;
+    opacity: 1;
+    padding-top: 50px;
+}
+
+.subheading{
+    text-align: center;
+    font: Regular 24px/29px Roboto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1.2px;
+    color: #F1FAEE;
+    opacity: 1;
+    font-size: 1.3vw;
+    font-weight: bold;
+}
+
+.email{
+    width: 40vw;
+    margin-left : 30vw;
+    margin-right: 30vw;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 7px;
+    padding-left: 5vw !important;
+    padding: 1.5vw;
+    border: none;
+    font-size: 1.5vw;
+    margin-top: 3vw;
+}
+
+@media screen and (max-width:900px) and (min-width : 600px){
+    .heading{
+        font-size: 4vw;
+    }
+    .subheading{
+        font-size: 2vw;
+    }
+    .email{
+        font-size: 2.5vw;
+        width:60vw;
+        margin-left: 20vw;
+        margin-right: 20vw;
+    }
+    .Card6{
+        padding-bottom: 8vw;
+    }
+}
+
+@media screen and (max-width:599px){
+    .heading{
+        font-size: 6vw;
+    }
+    .subheading{
+        font-size: 3vw;
+    }
+    .email{
+        font-size: 4vw;
+        width:80vw;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+    .Card6{
+        padding-bottom: 10vw;
+    }
+}
