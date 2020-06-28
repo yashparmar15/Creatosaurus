@@ -13,7 +13,12 @@
 
 .container2{
     width:80vw;
-    background-color: #F1FAEE;
+    padding-right: 6vw;
+    padding-left: 2vw;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    
 }
 
 .normal ,.logout{
@@ -68,3 +73,218 @@
 .setlog{
     margin-top: 10vw;
 }
+
+.card{
+
+    width:18vw;
+}
+
+.image{
+    width: 18vw;
+}
+.mainContainer{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    padding-top:8vw;
+    background-color: #F1FAEE;
+    height: auto;
+}
+
+.subheading{
+    margin-top: 1vw;
+    font-size: 1.5vw;
+    text-align: left;
+    font: Black 25px/30px Roboto;
+    letter-spacing: 0px;
+    color: #4D4D4D;
+    opacity: 1;
+    width:18vw;
+    margin-left: 1.5vw;
+}
+
+.subpara{
+    text-align: left;
+    font: Regular 16px/30px Roboto;
+    font-size: 1vw;
+    letter-spacing: 0px;
+    color: #A8A8A8;
+    opacity: 1;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+}
+
+.visit{
+    text-align: left;
+    margin-left: 1.5vw;
+    font: Regular 17px/20px Roboto;
+    letter-spacing: 0px;
+    color: #1D3557;
+    opacity: 1;
+    font-size: 1vw;
+    cursor: pointer;
+}
+
+.visit img{
+    width:1vw;
+    height: 1vw;
+}
+.menu{
+    font-size: 20px;
+    position: fixed;
+    color: black;
+    margin-top: 100px;
+    background-color: #F1FAEE;
+    border: none;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+}
+
+@media screen and (max-width : 900px) and (min-width:700px){
+    .container1{
+        padding-top: 13vw;
+    }
+    .mainContainer{
+        padding-top: 13vw;
+    }
+    .subheading{
+        font-size: 2.2vw;
+    }
+    .subpara{
+        font-size: 1.3vw;
+    }
+    .visit{
+        font-size: 1.3vw;
+    }
+    .visit img{
+        height: 1.3vw;
+        width: 1.3vw;
+    }
+}
+
+@media screen and (max-width:699px){
+    .menu{
+        display: block;
+    }
+    .mainContainer{
+        width:100vw;
+        padding-top:150px;
+        overflow-x: hidden;
+    }
+    .container2{
+        flex-direction: column;
+    }
+    .card{
+        width:80vw;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+    
+    .image{
+        width: 80vw;
+    }
+    
+    .subheading{
+        margin-top: 2vw;
+        font-size: 4.5vw;
+        text-align: left;
+        font: Black 25px/30px Roboto;
+        letter-spacing: 0px;
+        color: #4D4D4D;
+        opacity: 1;
+        width:50vw;
+        margin-left: 7vw;
+    }
+    
+    .subpara{
+        text-align: left;
+        font: Regular 16px/30px Roboto;
+        font-size: 3.5vw;
+        letter-spacing: 0px;
+        color: #A8A8A8;
+        opacity: 1;
+        margin-left: 7vw;
+        margin-right: 7vw;
+    }
+    
+    .visit{
+        text-align: left;
+        margin-left: 7vw;
+        font: Regular 17px/20px Roboto;
+        letter-spacing: 0px;
+        color: #1D3557;
+        opacity: 1;
+        font-size: 3.5vw;
+        cursor: pointer;
+    }
+    
+    .visit img{
+        width:3.5vw;
+        height: 3.5vw;
+    }
+
+    .container1{
+        width:100vw;
+        background-color: #fff;
+        padding-top:200px;
+        display: none ;
+    }
+    
+    .normal ,.logout{
+        background-color: #fff;
+        border: none;
+        text-align: left;
+        font-size: 4vw;
+        font-weight: normal;
+        letter-spacing: 0px;
+        color: #9E9E9E;
+        opacity: 1;
+        width:80vw;
+        margin-left: 10vw;
+        padding-left: 2vw;
+        padding-top: 1.5vw;
+        padding-bottom: 1.5vw;
+    }
+    
+    
+    .normal img{
+        margin-right: 1vw;
+        width: 4vw;
+        height: 4vw;
+    }
+    
+    .clicked img{
+        margin-right: 1vw;
+        width: 4vw;
+        height: 4vw;
+    }
+    
+    
+    .clicked{
+        background-color: #F1FADD;
+        border: none;
+        text-align: left;
+        font-size: 4vw;
+        font-weight: bold;
+        letter-spacing: 0px;
+        color: #1D3557;
+        opacity: 1;
+        width:80vw;
+        margin-left: 10vw;
+        padding-left: 2vw;
+        padding-top: 1.5vw;
+        padding-bottom: 1.5vw;
+    }
+    
+    .normal:hover {
+        background-color: #F1FAEE;
+    }
+    
+    .setlog{
+        margin-top: 10vw;
+    }
+    
+}
+
