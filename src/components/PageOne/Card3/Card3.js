@@ -31,17 +31,17 @@ const card3 = (props) => (
             <div className = {styles.part3}>
                 <div className = {styles.divide}>
                         <img className = {styles.imagep3} src = {clock} alt="clock" />  
-                        <h3 className = {styles.p3heading}>Safe <span>&</span> Secure</h3>
+                        <h3 className = {styles.p3heading}>Eligant <span>&</span> Perfect</h3>
                     </div>
                     <p className = {styles.p3para}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed.</p>
                     <div className = {styles.divide}>
                         <img className = {styles.imagep3} src = {clock} alt="clock" />
-                        <h3 className = {styles.p3heading}>Web Based</h3>
+                        <h3 className = {styles.p3heading}>Content Management</h3>
                     </div>
                     <p className = {styles.p3para}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed.</p>
                     <div className = {styles.divide}>
                         <img className = {styles.imagep3} src = {clock} alt="clock" />
-                        <h3 className = {styles.p3heading}>Team Collaboration</h3>
+                        <h3 className = {styles.p3heading}>Social Network</h3>
                     </div>
                     <p className = {styles.p3para}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed.</p>
             </div>

@@ -1,0 +1,70 @@
+.main{
+    width:100vw;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+}
+
+.container1{
+    width:20vw;
+    background-color: #fff;
+    padding-top: 8vw;
+}
+
+.container2{
+    width:80vw;
+    background-color: #F1FAEE;
+}
+
+.normal ,.logout{
+    background-color: #fff;
+    border: none;
+    text-align: left;
+    font-size: 1.2vw;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: #9E9E9E;
+    opacity: 1;
+    width:18vw;
+    margin-left: 1vw;
+    padding-left: 2vw;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+}
+
+.logout:hover{
+    background-color: red;
+}
+
+.normal img{
+    margin-right: 1vw;
+}
+
+.clicked img{
+    margin-right: 1vw;
+}
+
+
+.clicked{
+    background-color: #F1FADD;
+    border: none;
+    text-align: left;
+    font-size: 1.2vw;
+    font-weight: bold;
+    letter-spacing: 0px;
+    color: #1D3557;
+    opacity: 1;
+    width:18vw;
+    margin-left: 1vw;
+    padding-left: 2vw;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+}
+
+.normal:hover {
+    background-color: #F1FAEE;
+}
+
+.setlog{
+    margin-top: 10vw;
+}
