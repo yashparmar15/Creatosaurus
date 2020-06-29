@@ -1,7 +1,8 @@
-.Login{
+.register{
     width:100vw;
     display: flex;
     flex-direction: row;
+    height: 100vh;
 }
 
 .form{
@@ -10,21 +11,22 @@
 
 .image{
     width:35vw;
-    height:100vh;
-    background-color: #1D3557;
+    height:auto;    
+    background-color: #E63946;
 }
 
 .logo{
     width:65vw;
     margin-top: 3vw;
+    text-align: right;
 }
 
 .logoicon{
     width:50px;
-    margin-left: 8vw;
+    margin-right: 8vw;
 }
 
-.loginform{
+.registerform{
     width : 35vw;
     margin-left: 15vw;
     margin-right: 15vw;
@@ -51,6 +53,11 @@
     margin-top: 1vw;
 }
 
+b{
+    color:#1C14E6;
+    cursor: pointer;
+}
+
 .label{
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -58,7 +65,7 @@
     color: #919191;
     opacity: 1;
     font-size: 1.2vw;
-    margin-top: 2vw;
+    margin-top: 1vw;
     font-weight: 600;
 }
 
@@ -72,7 +79,7 @@
 }
 
 .check{
-    margin-top: 2vw;
+    margin-top: 1.5vw;
     text-align: left;
     font: Regular 18px/27px Roboto;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -81,10 +88,22 @@
     color: #9E9E9E;
     opacity: 1;
 }
-
+.passcheck{
+    width:35vw;
+    display: flex;
+    flex-direction: row;
+    margin-top: 1vw;
+}
+.passcheck div{
+    height:2px;
+    background-color: #C2C2C2;
+    border-radius: 1px;
+    margin-right: 5px;
+    width:6vw;
+}
 .button{
-    margin-top: 3vw;
-    background: #1D3557 0% 0% no-repeat padding-box;
+    margin-top: 2vw;
+    background: #E63946 0% 0% no-repeat padding-box;
     border-radius: 10px;
     width:35vw;
     text-align: center;
@@ -110,7 +129,7 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     letter-spacing: 0px;
     color: #A1A1A1;
-    margin-top: 1vw;
+    margin-top: 0.8vw;
 }
 
 .dont b{
@@ -135,7 +154,7 @@
         width:40px;
     }
     
-    .loginform{
+    .registerform{
         width : 80vw;
         margin-left: 10vw;
         margin-right: 10vw;
@@ -171,7 +190,7 @@
     
     .button{
         margin-top: 5vw;
-        background: #1D3557 0% 0% no-repeat padding-box;
+        background: #E63946 0% 0% no-repeat padding-box;
         border-radius: 8px;
         width:80vw;
         text-align: center;
@@ -188,6 +207,13 @@
     .dont b{
         color: #1C14E6;
         cursor: pointer;
+    }
+    .passcheck{
+        width:80vw;
+        margin-top: 1.2vw;
+    }
+    .passcheck div{
+        width:14vw;
     }
 }   
 
@@ -208,7 +234,7 @@
         width:40px;
     }
     
-    .loginform{
+    .registerform{
         width : 90vw;
         margin-left: 5vw;
         margin-right: 5vw;
@@ -244,7 +270,7 @@
     
     .button{
         margin-top: 10vw;
-        background: #1D3557 0% 0% no-repeat padding-box;
+        background: #E63946 0% 0% no-repeat padding-box;
         border-radius: 8px;
         width:90vw;
         text-align: center;
@@ -262,5 +288,14 @@
     .dont b{
         color: #1C14E6;
         cursor: pointer;
+    }
+    .passcheck{
+        width:90vw;
+        margin-top: 3vw;
+    }
+    .passcheck div{
+        height:2px;
+        margin-right: 3px;
+        width:18vw;
     }
 }   
