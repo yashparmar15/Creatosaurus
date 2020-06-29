@@ -5,12 +5,15 @@ import HomePage from './containers/HomePage/HomePage';
 
 import ProfilePage from './containers/ProfilePage/ProfilePage';
 
+import SignIn from './containers/SignIn/SignIn';
+
 class App extends Component {
   render(){
     return (
       <div>
           {/* <HomePage /> */}
-        <ProfilePage />
+        {/* <ProfilePage /> */}
+        <SignIn />
       </div>
     );
   }
