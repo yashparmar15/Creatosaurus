@@ -11,6 +11,8 @@ import SignUp from './containers/SignUp/SignUp';
 
 import OTP from './components/OTP/OTP';
 
+import Dummy from './components/PageOne/dummy/dummy';
+
 class App extends Component {
   render(){
     return (
@@ -20,6 +22,7 @@ class App extends Component {
           {/* <SignIn /> */}
           {/* <SignUp /> */}
           <OTP />
+          <Dummy />
       </div>
     );
   }

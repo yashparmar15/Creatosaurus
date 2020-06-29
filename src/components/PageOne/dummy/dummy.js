@@ -369,3 +369,5 @@ const dummy = (props) => (
         <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
     </div>
 );
+
+export default dummy;
